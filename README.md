@@ -27,6 +27,7 @@ try {
 
 Error codes and messages can be retrieved from the corresponding exception (`$e->getMessage()`/`$e->getCode()`). 
 Codes correspond to their respective error [constants](https://secure.php.net/manual/en/function.json-last-error.php).
+
 For messages, exceptions with use messages identical to what `json_last_error_msg()` might return. Check out the [php-src](https://github.com/php/php-src/blob/master/ext/json/json.c#L215) for examples.
 
 ### Available Exceptions
@@ -45,4 +46,4 @@ public static $errors = [
 ];
 ```
 
-Some exceptions are self explantory, and some are a little vague. Check out the [tests](https://github.com/matical/json/tree/master/tests) for some examples. All exception tests use the same "inputs" as what PHP internally uses to test ext-json.
+Some exceptions are self explantory, and some are a little vague. Check out the [tests](https://github.com/matical/json/blob/master/tests/JsonTest.php) for some examples. All exception tests use the same "inputs" as what PHP internally uses to test ext-json.
