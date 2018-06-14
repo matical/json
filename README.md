@@ -1,4 +1,7 @@
 ## json 
+[![Build Status](https://img.shields.io/travis/matical/json.svg?style=flat-square)](https://travis-ci.org/matical/json)
+[![Coveralls](https://img.shields.io/coveralls/matical/json.svg?style=flat-square)](https://coveralls.io/github/matical/json)
+[![StyleCI](https://github.styleci.io/repos/137324015/shield?branch=master)](https://github.styleci.io/repos/137324015)
 
 A json_encode/decode wrapper with specific, catchable exceptions.
 
