@@ -5,6 +5,9 @@
 
 A json_encode/decode wrapper with specific, catchable exceptions.
 
+### Installation
+`composer require ksmz/json`
+
 ### Basic Usage
 ```php
 use ksmz\json\Json;
