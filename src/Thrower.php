@@ -2,17 +2,17 @@
 
 namespace ksmz\Json;
 
-use ksmz\json\Exceptions\JsonException;
-use ksmz\json\Exceptions\Utf8Exception;
-use ksmz\json\Exceptions\DepthException;
-use ksmz\json\Exceptions\Utf16Exception;
-use ksmz\json\Exceptions\SyntaxException;
-use ksmz\json\Exceptions\InfOrNanException;
-use ksmz\json\Exceptions\RecursionException;
-use ksmz\json\Exceptions\InvalidJsonException;
-use ksmz\json\Exceptions\UnsupportedTypeException;
 use ksmz\json\Exceptions\ControlCharacterException;
+use ksmz\json\Exceptions\DepthException;
+use ksmz\json\Exceptions\InfOrNanException;
+use ksmz\json\Exceptions\InvalidJsonException;
 use ksmz\json\Exceptions\InvalidPropertyNameException;
+use ksmz\json\Exceptions\JsonException;
+use ksmz\json\Exceptions\RecursionException;
+use ksmz\json\Exceptions\SyntaxException;
+use ksmz\json\Exceptions\UnsupportedTypeException;
+use ksmz\json\Exceptions\Utf16Exception;
+use ksmz\json\Exceptions\Utf8Exception;
 
 class Thrower
 {
